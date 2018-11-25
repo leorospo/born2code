@@ -43,6 +43,22 @@ A seconda del tema attualmente attivo viene printato sul documento uno script JQ
 1. https://ibb.co/jvVPxz7
 
 
+### _6 - ard-Blinking_LED_SOS.inop
+
+**Sketch Arduino**
+
+**Ambito:** Arduino IDE / Prima esperienza
+
+**Obiettivo:** Far lampeggiare un messaggio di SOS in codice Morse.
+
+**Spiegazione:**
+Ho riportato i rapporti tratto punto spazio (https://en.wikipedia.org/wiki/Morse_code#Representation,_timing,_and_speeds) in delle variabili iniziali, moltiplicandoli per una costante (attraverso la quale ho potuto modificare la velocità di trasmissione del messaggio).
+Ho definito le funzioni blink_S e blink_O, richiamandole poi in blink_sos (alternate a dei delay definiti dalle variabili iniziali).
+
+**Nota:** Il branch v2 è una versione modificata per segnalare la fine trasmissione di ogni SOS attraverso un altro led
+
+
+
 
 
 Indice:
