@@ -33,23 +33,23 @@ A seconda del tema attualmente attivo viene printato sul documento uno script JQ
 
 **Immagini**
 
-1. https://ibb.co/z5b8DpD
-1. https://ibb.co/pJMJXPS
-1. https://ibb.co/nzvb8KH
-1. https://ibb.co/jbMvY4S
-1. https://ibb.co/VTh27Mb
-1. https://ibb.co/jDXN1yK
-1. https://ibb.co/7rKtYNF
-1. https://ibb.co/jvVPxz7
 1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_1.PNG)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_2.png)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/images/adr/_3.png)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/images/adr/_4.png)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/images/adr/_5.png)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/images/adr/_6.png)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/images/adr/_7.png)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/images/adr/_8.png)
+1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_2.PNG)
+1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_3.PNG)
+1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_4.PNG)
+1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_5.PNG)
+1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_6.PNG)
+1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_7.PNG)
+1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_8.PNG)
 
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_1.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_2.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_3.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_4.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_5.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_6.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_7.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_8.PNG)
 
 
 
