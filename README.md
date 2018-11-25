@@ -25,7 +25,7 @@ _______________________________________________
 **Link:** https://accademia.leonardomancori.com
 
 **Obiettivo:** Cambiare il tema di un sito sostituendo le immagini di sfondo dell'header, le relative citazioni ed altri elementi legati alla stessa immagine.
-Ogni utente, a prescindere dal proprio comportamento e dalle proprie abitudini di utilizzo del sito,deve poter visualizzare le immagini sempre nella stessa successione e mai troppo frequentemente, sia per non compromettere l'identità visiva del sito, sia per non creare disorientamento durante la navigazione.
+Ogni utente, a prescindere dal proprio comportamento e dalle proprie abitudini di utilizzo del sito, deve poter visualizzare le immagini sempre nella stessa successione e mai troppo frequentemente, sia per non compromettere l'identità visiva del sito, sia per non creare disorientamento durante la navigazione.
 
 **Spiegazione:**
 Il sistema realizzato sfrutta le sessioni del server e i cookie tecnici per mostrare il tema corretto (su qualunque pagina) in base al tempo passato dalla prima visualizzazione del tema corrente.
