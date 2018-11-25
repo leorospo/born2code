@@ -54,16 +54,30 @@ Ho definito le funzioni blink_S e blink_O, richiamandole poi in blink_sos (alter
 **Nota:** Il branch v2 è una versione modificata per segnalare la fine trasmissione di ogni SOS attraverso un altro led
 
 
+### _5 - adr-racconti-premiati.php
+
+**Interfaccia backend per la visualizzazione di racconti premiati**
+
+**Ambito:** Wordpress / PHP
+
+**Obiettivo:** Realizzare un interfaccia backend di visualizzazione dei racconti premiati.
+
+**Spiegazione:**
+Il file è il template di una pagina di amministrazione del backend di wordpress.
+Prima di iniziare controlliamo se l'utente è autorizzato, se non lo è restituiamo un messaggio di errore.
+Utilizziamo delle variabili GET inserite nell'url per realizzare l'interfaccia a schede, rimanendo il più possibile fedeli alla grafica base di wordpress e dividendo i premiati delle varie edizioni nelle varie schede.
+Controlliamo che le date di inizio e fine della singola edizione siano impostate. In caso negativo definiamo un messaggio di errore (con link al pannello per impostarle solo se l'utente è autorizzato).
+Se tutto torna iniziamo la query e per ogni risultato utilizziamo un template esterno. In caso di query vuota definiamo un messaggio di errore personalizzato a seconda delle capabilities dell'utente. Resettiamo i postdata.
+
+**Immagini**
+
+
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_9.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_10.PNG)
+------------ | -------------
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_11.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_12.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_13.PNG)
 
 
 
-Indice:
-*  _0 - arg-function.php
-*  _1 - adr-draft_to_pendig_date_time.php
-*  _2 - adr-adr_get_prize.php
-*  _3 - adr-rotazione-splash.php
-*  _4 - adr-racconti-archivio.php
-*  _5 - adr-racconti-premiati.php
-*  _6 - ard-Blinking_LED_SOS.ino
   
 
