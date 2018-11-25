@@ -41,7 +41,7 @@ A seconda del tema attualmente attivo viene printato sul documento uno script JQ
 1. https://ibb.co/jDXN1yK
 1. https://ibb.co/7rKtYNF
 1. https://ibb.co/jvVPxz7
-1. ![GitHub Logo](/born2code/images/adr/_1.png) 
+1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_1.PNG)
 1. ![GitHub Logo](/born2code/images/adr/_2.png)
 1. ![GitHub Logo](/born2code/images/adr/_3.png)
 1. ![GitHub Logo](/born2code/images/adr/_4.png)
