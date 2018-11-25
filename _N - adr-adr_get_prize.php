@@ -1,4 +1,5 @@
-	// 7.1- adr_get_prize
+<?php
+// 7.1- adr_get_prize
 function adr_get_prize ($draft_to_pending_date_time) {
 	
 	$date = $draft_to_pending_date_time;
@@ -33,3 +34,5 @@ function adr_get_prize ($draft_to_pending_date_time) {
 	}
 	
 }
+
+?>
