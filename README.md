@@ -2,7 +2,7 @@
 Raccolta di esperienze di programmazione
 _______________________________________________
 
-Questa repository contiene alcuni snippet o frammenti di codice realizzati fin ora.
+Questa repository contiene alcuni snippet o frammenti del codice realizzato fin ora.
 
 Indice:
   1- 
