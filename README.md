@@ -66,7 +66,7 @@ Ho definito le funzioni blink_S e blink_O, richiamandole poi in blink_sos (alter
 
 **Spiegazione:**
 Il file è il template di una pagina di amministrazione del backend di wordpress.
-Con delle variabili GET inserite nell'url si reallizaa l'interfaccia a schede, manenendo uno stile simile al resto del backend di wp.
+Con delle variabili GET inserite nell'url si è realizzata l'interfaccia a schede, mantenendo uno stile simile al resto del backend di wp.
 Applicando tutte le sicurezze del caso si imposta una query per la visualizzazione dei racconti pubblicati, filtrandoli per data di pubblicazione tra le varie schede.
 Restituisce messaggi di errore personalizzati a seconda del problema riscontrato e delle capabilities dell'utente.
 
