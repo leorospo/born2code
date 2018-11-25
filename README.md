@@ -43,7 +43,8 @@ A seconda del tema attualmente attivo viene printato sul documento uno script JQ
 1. https://ibb.co/jvVPxz7
 
 
-### _6 - ard-Blinking_LED_SOS.inop
+
+### _6 - ard-Blinking_LED_SOS.ino
 
 **Sketch Arduino**
 
