@@ -33,21 +33,14 @@ A seconda del tema attualmente attivo viene printato sul documento uno script JQ
 
 **Immagini**
 
-https://ibb.co/z5b8DpD
-
-https://ibb.co/pJMJXPS
-
-https://ibb.co/nzvb8KH
-
-https://ibb.co/jbMvY4S
-
-https://ibb.co/VTh27Mb
-
-https://ibb.co/jDXN1yK
-
-https://ibb.co/7rKtYNF
-
-https://ibb.co/jvVPxz7
+1. https://ibb.co/z5b8DpD
+1. https://ibb.co/pJMJXPS
+1. https://ibb.co/nzvb8KH
+1. https://ibb.co/jbMvY4S
+1. https://ibb.co/VTh27Mb
+1. https://ibb.co/jDXN1yK
+1. https://ibb.co/7rKtYNF
+1. https://ibb.co/jvVPxz7
 
 
 
