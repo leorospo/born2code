@@ -31,7 +31,9 @@ Ogni utente, a prescindere dal proprio comportamento e dalle proprie abitudini d
 Il sistema realizzato sfrutta le sessioni del server e i cookie tecnici per mostrare il tema corretto (su qualunque pagina) in base al tempo passato dalla prima visualizzazione del tema corrente.
 A seconda del tema attualmente attivo viene printato sul documento uno script JQuery che cambia le classi responsabili della visualizzazione delle immagini di sfondo. Le citazioni vengono invece selezionate da un array a corrispondenza biunivoca tema - citazione.
 
-**Immagini** Tip: Tasto destro, visualizza immagine
+**Immagini** 
+
+Tip: Tasto destro, visualizza immagine
 
 
 ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_1.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_2.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_3.PNG)
@@ -64,12 +66,13 @@ Ho definito le funzioni blink_S e blink_O, richiamandole poi in blink_sos (alter
 
 **Spiegazione:**
 Il file è il template di una pagina di amministrazione del backend di wordpress.
-Prima di iniziare controlliamo se l'utente è autorizzato, se non lo è restituiamo un messaggio di errore.
-Utilizziamo delle variabili GET inserite nell'url per realizzare l'interfaccia a schede, rimanendo il più possibile fedeli alla grafica base di wordpress e dividendo i premiati delle varie edizioni nelle varie schede.
-Controlliamo che le date di inizio e fine della singola edizione siano impostate. In caso negativo definiamo un messaggio di errore (con link al pannello per impostarle solo se l'utente è autorizzato).
-Se tutto torna iniziamo la query e per ogni risultato utilizziamo un template esterno. In caso di query vuota definiamo un messaggio di errore personalizzato a seconda delle capabilities dell'utente. Resettiamo i postdata.
+Con delle variabili GET inserite nell'url si reallizaa l'interfaccia a schede, manenendo uno stile simile al resto del backend di wp.
+Applicando tutte le sicurezze del caso si imposta una query per la visualizzazione dei racconti pubblicati, filtrandoli per data di pubblicazione tra le varie schede.
+Restituisce messaggi di errore personalizzati a seconda del problema riscontrato e delle capabilities dell'utente.
 
-**Immagini** Tip: Tasto destro, visualizza immagine
+**Immagini**
+
+Tip: Tasto destro, visualizza immagine
 
 ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_9.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_10.PNG)
 ------------ | -------------
