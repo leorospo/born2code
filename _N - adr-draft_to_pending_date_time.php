@@ -1,4 +1,5 @@
-			//Draft to pending adds
+<?php
+//Draft to pending adds
 function draft_to_pending_date_time_updater( $post ) {
 	
 	if ('racconti' == $post->post_type) {
@@ -14,3 +15,5 @@ function racconti_to_draft_date_time_deleter( $ID, $post ) {
 	update_post_meta( $ID, 'draft_to_pending_date_time', '' );
 }
 add_action(  'draft_racconti',  'racconti_to_draft_date_time_deleter', 10, 2 );
+
+?>
