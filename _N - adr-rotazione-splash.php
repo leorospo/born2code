@@ -41,3 +41,100 @@
 		}
 	}
 ?>
+
+
+<!-- D. La magia delle immagini -->
+		<script>
+			
+			quote = new Array(4)																		// 4 = numero di citazioni presenti nell'array
+			quote[0] = 'Scrivete delle questioni che vi toccano. Sono le sole cose di cui vale la pena scrivere.'
+			quote[1] = 'Le parole sono, nella mia non modesta opinione, la nostra massima e inesauribile fonte di magia.'
+			quote[2] = 'Amo le frasi che non si sposterebbero di un millimetro nemmeno se le attraversasse un esercito.'
+			quote[3] = 'Il talento è solo uno strumento. È come avere una penna che scrive invece di una che non scrive.'
+			
+			
+			author = new Array(4)																		// 4 = numero di autori presenti nell'array
+			author[0] = 'Chuck Palahniuk'
+			author[1] = 'Albus Silente'
+			author[2] = 'Virginia Woolf'
+			author[3] = 'David Foster Wallace'
+
+			
+			<?php
+				if (isset($_SESSION['adr_current_theme'])) {
+			?>
+
+					//Display theme
+					$( document ).ready(function() {
+						
+			<?php
+						switch ($_SESSION['adr_current_theme']):
+
+							case 0:
+								echo '$("#splash").addClass("splash-sea");';
+								echo '$("#quote-space").addClass("quote-TR");';
+								echo '$("#cta").addClass("cta-sea");';
+								break;
+
+							case 1:
+								echo '$("#splash").addClass("splash-ship");';
+								echo '$("#quote-space").addClass("quote-TL");';
+								echo '$("#cta").addClass("cta-ship");';
+								break;
+
+							case 2:
+								echo '$("#splash").addClass("splash-mount");';
+								echo '$("#quote-space").addClass("quote-TL");';
+								echo '$("#cta").addClass("cta-mount");';
+								break;
+
+							case 3:
+								echo '$("#splash").addClass("splash-ice");';
+								echo '$("#quote-space").addClass("quote-TL");';
+								echo '$("#cta").addClass("cta-ice");';
+								break;
+
+						endswitch;
+			?>
+						$('.quote-text').text( get_related_quote() );
+						$('.quote-author').text( get_related_quote_author() );
+
+					});
+			
+					function get_related_quote() {
+						return(quote[<?php echo $_SESSION['adr_current_theme']; ?>])
+					}
+
+					function get_related_quote_author() {
+						return(author[<?php echo $_SESSION['adr_current_theme']; ?>])
+					}
+
+			<?php
+
+				} else {
+			?>
+
+					//Qualcosa è andato storto con i cookie e le sessioni, mostriamo una roba base
+					$( document ).ready(function() {
+						$("#splash").addClass("splash-sea");
+						$('.quote-text').text( get_related_quote() );
+						$('.quote-author').text( get_related_quote_author() );
+						$("#quote-space").addClass("quote-TR");
+						$("#cta").addClass("cta-sea");
+						
+					});
+					
+					function get_related_quote() {
+						return(quote[0])
+					}
+
+					function get_related_quote_author() {
+						return(author[0])
+					}
+			
+			<?php
+
+				}
+			?>
+			
+		</script>
