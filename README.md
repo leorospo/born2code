@@ -32,15 +32,15 @@ Il sistema realizzato sfrutta le sessioni del server e i cookie tecnici per most
 A seconda del tema attualmente attivo viene printato sul documento uno script JQuery che cambia le classi responsabili della visualizzazione delle immagini di sfondo. Le citazioni vengono invece selezionate da un array a corrispondenza biunivoca tema - citazione.
 
 **Immagini**
+| Italic             |  Block letters |
+:-------------------------:|:-------------------------:
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_1.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_2.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_3.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_4.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_5.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_6.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_7.PNG)
+![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_8.PNG)
 
-1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_1.PNG)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_2.PNG)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_3.PNG)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_4.PNG)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_5.PNG)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_6.PNG)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_7.PNG)
-1. ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_8.PNG)
+
 
 ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_1.PNG)
 ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_2.PNG)
@@ -50,8 +50,6 @@ A seconda del tema attualmente attivo viene printato sul documento uno script JQ
 ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_6.PNG)
 ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_7.PNG)
 ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_8.PNG)
-
-
 
 ### _6 - ard-Blinking_LED_SOS.ino
 
