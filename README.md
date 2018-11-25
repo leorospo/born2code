@@ -31,7 +31,15 @@ Ogni utente, a prescindere dal proprio comportamento e dalle proprie abitudini d
 Il sistema realizzato sfrutta le sessioni del server e i cookie tecnici per mostrare il tema corretto (su qualunque pagina) in base al tempo passato dalla prima visualizzazione del tema corrente.
 A seconda del tema attualmente attivo viene printato sul documento uno script JQuery che cambia le classi responsabili della visualizzazione delle immagini di sfondo. Le citazioni vengono invece selezionate da un array a corrispondenza biunivoca tema - citazione.
 
-
+**Immagini**
+https://ibb.co/z5b8DpD
+https://ibb.co/pJMJXPS
+https://ibb.co/nzvb8KH
+https://ibb.co/jbMvY4S
+https://ibb.co/VTh27Mb
+https://ibb.co/jDXN1yK
+https://ibb.co/7rKtYNF
+https://ibb.co/jvVPxz7
 
 
 
