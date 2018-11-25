@@ -31,7 +31,7 @@ Ogni utente, a prescindere dal proprio comportamento e dalle proprie abitudini d
 Il sistema realizzato sfrutta le sessioni del server e i cookie tecnici per mostrare il tema corretto (su qualunque pagina) in base al tempo passato dalla prima visualizzazione del tema corrente.
 A seconda del tema attualmente attivo viene printato sul documento uno script JQuery che cambia le classi responsabili della visualizzazione delle immagini di sfondo. Le citazioni vengono invece selezionate da un array a corrispondenza biunivoca tema - citazione.
 
-**Immagini**
+**Immagini** Tip: Tasto destro, visualizza immagine
 
 
 ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_1.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_2.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_3.PNG)
@@ -69,8 +69,7 @@ Utilizziamo delle variabili GET inserite nell'url per realizzare l'interfaccia a
 Controlliamo che le date di inizio e fine della singola edizione siano impostate. In caso negativo definiamo un messaggio di errore (con link al pannello per impostarle solo se l'utente è autorizzato).
 Se tutto torna iniziamo la query e per ogni risultato utilizziamo un template esterno. In caso di query vuota definiamo un messaggio di errore personalizzato a seconda delle capabilities dell'utente. Resettiamo i postdata.
 
-**Immagini**
-
+**Immagini** Tip: Tasto destro, visualizza immagine
 
 ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_9.PNG) | ![GitHub Logo](https://github.com/leorospo/born2code/blob/master/images/adr/_10.PNG)
 ------------ | -------------
